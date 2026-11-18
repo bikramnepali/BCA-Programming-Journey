@@ -1,0 +1,20 @@
+//  To input radius and compute volume of sphere.
+
+#include <stdio.h>
+
+int main()
+{
+	int r;
+	float pi, vol;
+	
+	pi = 3.14;
+	
+	printf("Enter radius: ");
+	scanf("%d", &r);
+	
+	vol = 4/3 * (pi * r * r * r);
+	
+	printf("Volume is: %.2f", vol);
+	
+	return 0;
+}
