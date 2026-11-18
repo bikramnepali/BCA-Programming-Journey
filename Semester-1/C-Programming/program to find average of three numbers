@@ -1,0 +1,15 @@
+// program to find average of three numbers
+#include <stdio.h>
+
+int main()
+{
+	int a, b, c, avg;
+	a = 4;
+	b = 15;
+	c = 34;
+	avg = (a + b + c)/3;
+	
+	printf("Average is %d", avg);
+	
+	return 0; 
+}
