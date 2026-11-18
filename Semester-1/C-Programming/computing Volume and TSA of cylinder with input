@@ -1,0 +1,24 @@
+// to inpute radious and height of a cylinder and compute volume and TSA.
+
+#include <stdio.h>
+
+int main()
+{
+	int r, h;
+	float pi, vol, TSA;
+	
+	pi = 3.14;
+	
+	printf("Enter radius: ");
+	scanf("%d", &r);
+	
+	printf("Enter hight: ");
+	scanf("%d", &h);
+	
+	vol = pi * r * r * h;
+	TSA = 2 * pi * r * (r + h);
+	
+	printf(" Volume of cylinder %.2f\n TSA is %.2f", vol, TSA);
+	
+	return 0;
+}
