@@ -1,0 +1,17 @@
+// program to find Volume and TSA of Cuboid
+
+#include <stdio.h>
+
+int main()
+{
+	int l, b, h, vol, tsa;
+	l = 10;
+	b = 8;
+	h = 5;
+	vol = l * b * h;
+	tsa = 2*(l*b + l*h + b*h);
+	
+	printf("Volume is %d\nTSA is %d ",vol, tsa);
+	
+	return 0;
+}
