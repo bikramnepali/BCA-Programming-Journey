@@ -8,7 +8,8 @@ int main()
 	b = 15;
 	c = 34;
 	avg = (a + b + c)/3;
-	
+
+	// %d is a formate identifier 
 	printf("Average is %d", avg);
 	
 	return 0; 
