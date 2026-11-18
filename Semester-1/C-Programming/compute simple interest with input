@@ -1,0 +1,24 @@
+// To input P T R and compute SI
+
+#include <stdio.h>
+
+int main()
+{
+	int  P, T;
+	float R, SI;
+	
+	printf("Enter Principa: ");
+	scanf("%d", &P);
+	
+	printf("Enter Time: ");
+	scanf("%d", &T);
+	
+	printf("Enter Rate: ");
+	scanf("%f", &R);
+	
+	SI = (P * T * R)/100;
+	
+	printf("Simple interest is: %.2f", SI);
+	
+	return 0;
+}
