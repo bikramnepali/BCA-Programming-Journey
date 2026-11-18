@@ -1,0 +1,17 @@
+// To input a number and find it's cube 
+
+#include <stdio.h>
+
+int main()
+{
+	int a, cube;
+	
+	printf("Enter a number: ");
+	scanf("%d", &a);
+	
+	cube = a * a * a;
+	
+	printf("Cube is: %d", cube);
+	
+	return 0;
+}
