@@ -1,0 +1,17 @@
+// program to find the are of circle 
+
+#include <stdio.h>
+
+int main()
+{
+	int r;
+	float pi, area;
+	r = 7;
+	pi = 3.14;
+	area = pi * r * r;
+	
+	//.2 shows how many digits should be shown after that point at result.
+	printf("Area is %.2f", area);
+	
+	return 0;
+}
