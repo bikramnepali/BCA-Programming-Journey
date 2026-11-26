@@ -1,0 +1,14 @@
+// A program to compute the value of the expression x = (a * a + a * b * c + c * d)/(2 * a)
+
+#include <stdio.h>
+int main()
+{
+	int a = 2, b = 3, c = 4, d = 5;
+	float x;
+	
+	x = (a * a + a * b * c + c * d)/(2 * a);
+	
+	printf("The value of x = %.2f", x);
+	
+	return 0;
+}
